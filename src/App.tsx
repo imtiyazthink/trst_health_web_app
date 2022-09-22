@@ -1,12 +1,8 @@
-import React from "react";
-import "./App.css";
+import { Box } from "@mui/material";
+import classes from "./style.module.css"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">Hello World</header>
-    </div>
-  );
+  return <Box>React app</Box>;
 }
 
 export default App;
